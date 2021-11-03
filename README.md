@@ -1,1 +1,2 @@
 # SpaceTravel
+This project will utilize the ISS open data portal to project the ISS current location through a simple API offered on the ISS website to return the current location of the ISS at any given moment. The result would be a series of data including the latitude and longitude of the space station with a unix timestamp of when the location was delivered and valid. This would present itself on an HTTP page and allow users to project when the ISS location would be close to their own latitude and longitude. 
