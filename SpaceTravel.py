@@ -12,3 +12,11 @@ response = urllib2.urlopen(req)
 obj = json.loads(response.read()
 
 
+# print(obj['timestamp'])
+# print(obj['iss_position']['latitude'], obj['data']['iss_position']['latitude'])
+
+lat = float(obj['iss_position']['latitude'])
+lon = float(obj['iss_position']['longitude'])
+print(lat)
+print(lon)
+
