@@ -10,3 +10,9 @@ Added print(obj) statement to see full object
 
 Noted Challenges: Package for urllib2 needed import as urllib through request call from original library
 "Data" unknown based on terminal output. Variable could not be located through sample code. 
+
+# Import databases from website: Imported libraries and databases
+https://towardsdatascience.com/easy-steps-to-plot-geographic-data-on-a-map-python-11217859a2db
+# Import new libraries for geospatial tracking and table creation using lat and lon
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html
+
