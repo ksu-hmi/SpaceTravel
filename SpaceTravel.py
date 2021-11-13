@@ -22,8 +22,15 @@ print(lon)
 
 #lat and lon variabels are string variabels coded as unicode. Need to decipher and change to float variable in order to move forward. CHALLENGE ACCEPTED
 #Created data frame (df) for mapping shell, modified existing code to account for my new variables lat, lon. 
-d = {'lat': [lat], 'lon': [lon]}
-df = pd.DataFrame(data=d)
-df.head()
+# d = {'lat': lat, 'lon': lon}
+# df = pd.DataFrame(data=d)
+# df.head()
 
-print(df)
+# print(df)
+
+#df example of expected output
+# #    col1  col2
+# # 0     1     3
+# # 1     2     4
+
+## Realized I didn't need the dataframe in order to create the image of the map.
