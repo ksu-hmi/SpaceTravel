@@ -16,3 +16,9 @@ https://towardsdatascience.com/easy-steps-to-plot-geographic-data-on-a-map-pytho
 # Import new libraries for geospatial tracking and table creation using lat and lon
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html
 
+Realized I didn't need the dataframe in order to create the image of the map.
+
+Notes for commits:
+    Git add (file name)
+    Git commit -m "Note"
+    Git push origin main
