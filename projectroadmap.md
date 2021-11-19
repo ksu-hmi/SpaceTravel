@@ -13,6 +13,7 @@ Noted Challenges: Package for urllib2 needed import as urllib through request ca
 
 # Import databases from website: Imported libraries and databases
 https://towardsdatascience.com/easy-steps-to-plot-geographic-data-on-a-map-python-11217859a2db
+
 # Import new libraries for geospatial tracking and table creation using lat and lon
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html
 
@@ -25,3 +26,7 @@ Realized I didn't need the dataframe in order to create the image of the map.
     Git add (file name)
     Git commit -m "Note"
     Git push origin main
+
+#Code update: 11.19.2021
+## BBox
+Inserted code related to a barrier box (Bbox) that could be executed within the code for a lat and lon coordinate feature. It took some time but I added a 0.01 to each boundary in order to map ourside regular lat and lon coordinates. This helped create the boundary. I have the points but for some reason the map isn't importing.
