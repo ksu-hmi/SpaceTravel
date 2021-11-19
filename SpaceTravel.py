@@ -34,3 +34,10 @@ print(lon)
 # # 1     2     4
 
 ## Realized I didn't need the dataframe in order to create the image of the map.
+
+#Creating box for geosptial mapping using current ISS lat and lon variables to expand 4 corners for mapping. 
+# BBox is a code used to create the actual 4 corners of the shell for the map in order to pinpoint the location of the ISS within those corners.
+#offset = 10
+
+BBox = {"lat": [lat, lat+0.01], "lon": [lon, lon+0.01]}
+print(BBox)
