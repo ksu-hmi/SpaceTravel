@@ -30,3 +30,9 @@ Realized I didn't need the dataframe in order to create the image of the map.
 #Code update: 11.19.2021
 ## BBox
 Inserted code related to a barrier box (Bbox) that could be executed within the code for a lat and lon coordinate feature. It took some time but I added a 0.01 to each boundary in order to map ourside regular lat and lon coordinates. This helped create the boundary. I have the points but for some reason the map isn't importing.
+
+
+#Code update: 12.9.2021
+## Adding final code
+Inserted new file called workstation where I've been exprimenting with code. This is my final code submission. 
+Updated final code with comments and new future areas to enhance this project.
